@@ -1,0 +1,8 @@
+[package]
+name = "dev"
+version = "0.1.0"
+authors = ["VanillaBrooks <brooks@karlik.org>"]
+edition = "2018"
+
+[dependencies]
+args_into = {path = "../args_into"}

@@ -1,0 +1,13 @@
+[package]
+name = "args_into"
+version = "0.1.0"
+authors = ["VanillaBrooks <brooks@karlik.org>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = {version="1.0.48", features=["full", "derive", "extra-traits"]}
+quote = "1.0.7"
+proc-macro2 = "1.0.24"
